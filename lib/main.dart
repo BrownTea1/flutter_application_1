@@ -50,9 +50,10 @@ class MyHomePage extends StatelessWidget {
           title,
         ),
       ),
-      body: Center(
-        //Center() 위젯 -  child()위젯
+      body: Container(
+        // Center( //Center() 위젯 -  child()위젯
         child: Text('Hello, Flutter!:) + (안녕)'),
+        padding: EdgeInsets.all(30),
       ),
     );
   }
