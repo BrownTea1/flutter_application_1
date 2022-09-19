@@ -45,7 +45,7 @@ class MyHomePage extends StatelessWidget {
         ),
       ),
       body: Center(//Center() 위젯 -  child()위젯 
-        child: Text('Hello, Flutter!'),
+        child: Text('Hello, Flutter! :)'),
       ),
     );
   }
